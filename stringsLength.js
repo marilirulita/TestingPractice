@@ -5,5 +5,5 @@ const stringLength = (string) => {
   return string.length;
 }
 
-//console.log(stringLength("marilirulita"));
+//console.log(reverseString("marilirulita"));
 module.exports = stringLength;

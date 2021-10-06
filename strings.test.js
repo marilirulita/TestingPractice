@@ -1,7 +1,11 @@
-const stringLength = require('./strings');
+const stringLength = require('./stringsLength');
+const reverseString = require('./stringsReverse');
 
 const username = "marili";
+const longUser = "marilirulita";
 const relative = "dad";
+
+// tests for strings length function
 
 test('string lenght iqual 12', () => {
   expect(stringLength(username)).toBe(6);
@@ -20,5 +24,15 @@ test('string lenght is allowed (smaller)', () => {
 });
 
 test('string length not allowed', () => {
-  expect(() => stringLength("marilirulita")).toThrow(Error);
+  expect(() => stringLength(longUser)).toThrow(Error);
+});
+
+// tests for reverse string function.
+
+test('string is reversed', () => {
+  expect(reverseString(longUser)).toMatch(/atiluriliram/);
+});
+
+test('string is reversed', () => {
+  expect(reverseString(username)).toMatch(/iliram/);
 });
