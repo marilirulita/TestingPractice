@@ -1,0 +1,27 @@
+{
+  "name": "testingpractice",
+  "version": "1.0.0",
+  "description": "Record of some test for javascript functions using jest library",
+  "main": "strings.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marilirulita/TestingPractice.git"
+  },
+  "keywords": [
+    "testing",
+    "practice",
+    "jest"
+  ],
+  "author": "Mar y sol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marilirulita/TestingPractice/issues"
+  },
+  "homepage": "https://github.com/marilirulita/TestingPractice#readme",
+  "devDependencies": {
+    "jest": "^27.2.4"
+  }
+}
