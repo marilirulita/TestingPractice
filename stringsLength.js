@@ -6,4 +6,4 @@ const stringLength = (string) => {
 }
 
 //console.log(reverseString("marilirulita"));
-module.exports = stringLength;
+export default stringLength;

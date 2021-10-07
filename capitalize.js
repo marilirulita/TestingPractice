@@ -3,4 +3,4 @@ const capitalize = (string) => {
 }
 
 //console.log(capitalize("rose"));
-module.exports = capitalize;
+export default capitalize;

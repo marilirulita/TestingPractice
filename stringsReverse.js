@@ -3,4 +3,4 @@ const reverseString = (string) => {
 }
 
 //console.log(reverseString("marilirulita"));
-module.exports = reverseString;
+export default reverseString;

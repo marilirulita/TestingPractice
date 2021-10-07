@@ -26,4 +26,4 @@ class Calculator {
 // const added = number.add();
 // console.log(added);
 
-module.exports = Calculator;
+export default Calculator;

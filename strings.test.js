@@ -1,7 +1,7 @@
-const stringLength = require('./stringsLength');
-const reverseString = require('./stringsReverse');
-const Calculator = require('./calculator');
-const capitalize = require('./capitalize');
+import stringLength from './stringsLength';
+import reverseString from './stringsReverse';
+import Calculator from './calculator';
+import capitalize from './capitalize';
 
 const username = "marili";
 const longUser = "marilirulita";
